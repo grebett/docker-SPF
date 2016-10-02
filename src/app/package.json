@@ -1,0 +1,21 @@
+{
+  "name": "docker-SPF-express-server",
+  "version": "0.1.0",
+  "description": "This is the ExpressJS server for the docker-SPF image.",
+  "main": "server.js",
+  "scripts": {
+    "test": "/app/node_modules/mocha/bin/mocha /app/test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "lodash": "^4.16.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "should": "^11.1.0"
+  }
+}

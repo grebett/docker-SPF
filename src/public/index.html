@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>spf</title>
+    <link rel="stylesheet" href="/common/styles/main.css" media="screen" title="no title">
+    <base href="/" target="_blank" />
+    <style media="screen">
+      .link {
+        color: steelblue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>This is the main page, accessed with / or index*</h1>
+      <a class="spf-link link" href="/the_one_fragment/?o=1">page</a>
+      <a class="spf-link link" href="/the_second_fragment">other_page</a>
+      <a class="link" target="_self" href="/index">Back!</a>
+      <h1>parent-container</h1>
+      <div id="parent-container">
+      </div>
+      <h1>other-parent-container</h1>
+      <div id="other-parent-container">
+      </div>
+      <h1>third-parent-container</h1>
+      <div id="third-parent-container">
+      </div>
+    </div>
+    <script src="common/lib/spfjs/spf.js"></script>
+    <script name="main" src="common/scripts/main.js" charset="utf-8"></script>
+  </body>
+</html>

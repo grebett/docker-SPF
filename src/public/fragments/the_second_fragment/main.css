@@ -1,0 +1,16 @@
+.first-container {
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid steelblue;
+    overflow: auto;
+    background: steelblue;
+    color: white;
+}
+
+.first-container img {
+    width: 100%;
+}
+
+.first-container p {
+    padding: 15px;
+}

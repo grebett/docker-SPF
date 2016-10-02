@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>spf</title>
+    <link rel="stylesheet" href="/common/styles/main.css" media="screen" title="no title">
+    <base href="/" target="_blank" />
+    <style media="screen">
+      .link {
+        color: steelblue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>This is the main page, accessed with other_page</h1>
+      <a class="spf-link link" href="/the_one_fragment">page</a>
+      <a class="link" target="_self" href="/index">Back!</a>
+      <div id="container">
+        This will be replaced when clicking on the link above.
+      </div>
+    </div>
+    <script src="common/lib/spfjs/spf.js"></script>
+    <script name="main" src="common/scripts/main.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      // spf.navigate('fragments/1.frag');
+    </script>
+  </body>
+</html>
